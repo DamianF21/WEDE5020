@@ -41,6 +41,30 @@ Project Structure
      ├── graphic-design.jpg
      └─── printing.jpg
 
+--Part 2---
+
+# Mangaung Digital Art Print
+
+## Project Overview
+This project is a 5-page static website developed for an academic web development assignment. It serves as the digital front door for Mangaung Digital Art Print, a Non-Profit Organisation (NPO) dedicated to youth empowerment and digital skills development in Botshabelo, Free State. 
+
+## Technical Stack
+* *HTML5:* Semantic structuring (Header, Nav, Main, Section, Article, Footer).
+* *CSS3:* Advanced styling using CSS Variables (:root), Flexbox, CSS Grid, and Media Queries for responsive design.
+* *Version Control:* Git & GitHub.
+* *Hosting/Deployment:* Netlify.
+
+## Page Structure & Features
+1. *Home (index.html):* Modern, minimalist Uber-style layout featuring a split-screen hero section and an interactive 4-card "Suggestions" grid with icons.
+2. *About (AboutUs.html):* A custom magazine-style split layout featuring vertical typography, overlapping color blocks, and responsive image scaling.
+3. *Services (Services.html):* A 4-column CSS Grid showcasing the core NPO offerings inside interactive, shadow-lifted UI cards.
+4. *Enquiry (Enquiry.html):* A two-column minimalist layout featuring a full-width hero background image, "line-only" input fields, and a custom pill-shaped submit button.
+5. *Contact Us (ContactUs.html):* A split 2-column layout containing organizational details, an embedded live Google Map, and a user form.
+
+## Design System
+* *Global Navigation:* Features hover state animations and active-page highlighting using aria-current="page".
+* *Footer:* Comprehensive 4-column layout containing brand logo, quick links, service routing, and external social media links.
+* *Responsiveness:* All pages collapse gracefully into single-column layouts for mobile devices (max-width: 600px) and adapt for tablet viewing (max-width: 900px).
 
 **GitHub Link** [https://github.com/Damian-21-student/DAMIAN-FORBES-WED5020-ASSIGNMENT-1-PART1](https://github.com/Damian-21-student/DAMIAN-FORBES-WED5020-ASSIGNMENT-1-PART1)
 **Netilfy Link**[https://app.netlify.com/projects/elaborate-stardust-447a92/deploys/6a7c9ce9978a1a7b65ee6862](https://app.netlify.com/projects/elaborate-stardust-447a92/deploys/6a7c9ce9978a1a7b65ee6862)

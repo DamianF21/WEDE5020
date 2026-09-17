@@ -32,3 +32,29 @@ All notable changes to the Managung Dighital Art Print website project are docum
 
 ## Part 2
 
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [Unreleased] - 2026-09-16
+
+### Added
+- *Global:* Configured custom CSS variables (:root) for cohesive brand coloring across all pages.
+- *Global:* Added a comprehensive 4-column footer containing the NPO logo, quick links, and functional social media links.
+- *Home:* Built a new Uber-inspired split-screen hero layout with action buttons.
+- *Home:* Added a bottom grid featuring 4 interactive suggestion cards with inline icons.
+- *About:* Implemented a new custom split-screen layout with vertical writing-mode typography and responsive image framing.
+- *Enquiry:* Added a full-width background hero image with centered, text-shadowed typography.
+- *Contact:* Embedded a live Google Map iframe inside the contact details column.
+
+### Changed
+- *Global:* Updated the <nav> links to include aria-current="page" to dynamically highlight the active page.
+- *Services:* Converted standard text lists into a 4-column CSS Grid service-card layout with hover transformation and shadow effects.
+- *Enquiry:* Completely redesigned the form into a minimalist 2-column UI, featuring bottom-border-only input fields and a slate-blue pill-shaped submit button.
+- *Contact:* Restructured the main content into a 2-column CSS Grid, separating the company details/map from the interactive user form.
+
+### Fixed
+- *Global:* Corrected broken HTML wrapper elements (div, section) to ensure CSS Grid and Flexbox rules apply correctly.
+- *Global:* Implemented @media queries at 900px and 600px breakpoints to fix layout breaking on tablet and mobile devices.
+- *Navigation:* Resolved typography and underline issues in the header by properly scoping the .site-nav a and .brand CSS classes.
+
