@@ -58,3 +58,31 @@ All notable changes to this project will be documented in this file.
 - *Global:* Implemented @media queries at 900px and 600px breakpoints to fix layout breaking on tablet and mobile devices.
 - *Navigation:* Resolved typography and underline issues in the header by properly scoping the .site-nav a and .brand CSS classes.
 
+####  CSS Fixes & Enhancements
+Syntax & Error Cleanup: Fixed an unclosed comment block (* The Updated Grey Cards */) that was breaking card rendering, corrected the invalid @media (media-width:600px) query to @media (max-width: 600px), and resolved a numerical typo (margin: 0.0.1rem 0;) on footer headings.
+
+Footer Layout Realignment: Replaced the wide layout with a constrained, auto-centered CSS Grid (repeat(4, 1fr)) inside a dedicated container to balance all four columns evenly across the viewport.
+
+Contact Cards Modernization: Rebuilt the contact boxes into clean card containers featuring light borders, subtle box shadows, and uniform internal padding.
+
+Opening Hours Grid: Converted the unstructured bulleted list into distinct two-column flex rows with subtle dividing lines, aligning the days to the left and times to the right.
+
+Form & Button Styling: Styled the contact inputs and text areas with sleek light-gray borders, gold accent focus outlines, and a pill-shaped submit button.
+
+Mobile Responsiveness: Added structured media query breakpoints (900px, 768px, and 600px) so the split sections, contact grids, and footer columns collapse into single-column layouts on smaller devices.
+
+
+#### HTML & Structural Updates
+Two-Column Contact Section: Reorganized the layout into two balanced parent columns: contact info and interactive map on the left, and the inquiry form card on the right.
+
+Interactive Protocols: Upgraded the plain text contact details into clickable actions using tel:+27... for mobile phone dialing and mailto:... for direct emailing.
+
+External Link Security: Added target="_blank" alongside rel="noopener noreferrer" attributes to all social media links to protect security and keep the user on the primary site.
+
+Copy & Typo Corrections: Corrected the header spelling from "Phyical Address" to "Physical Address" and restored the original business details:
+
+Address: 2044 Section A, Botshabelo, 9781, Mangaung
+
+Telephone: 08263 6371
+
+Map & Action Layout: Integrated the Google Maps iframe within a framed container directly below the physical address text, complemented by an outline directions button.

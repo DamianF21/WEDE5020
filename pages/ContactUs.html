@@ -41,63 +41,94 @@
     </section>
 
     <section class="contact-section">
-        <div class="container contact-grid">
+  <div class="container contact-main-grid">
 
-            <div class="contact-info">
-                <div class="contact-box">
-                <h3>Tel:08263 6371</h3>
+    <!-- LEFT COLUMN: Contact Details & Map -->
+    <div class="contact-details-col">
+      <h2 class="main-tel">Tel: <span>087 703 6461</span></h2>
 
-                <h4>Phyical Address</h4>
-                <p>2044 Section A<br>Botshabelo, 9781<br>Mangaung</p>
-                </div>
-
-                <div class="contact-box">
-                <h4>Opening Hours</h4>
-                <ul>
-                    <li><strong>Weekdays:</strong> 8am to 5pm</li>
-                    <li><strong>Saturday:</strong> 8am to 1pm</li>
-                    <li><strong>Sunday:</strong> Closed</li>
-                </ul>
-                </div>
-
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3480.5565360849646!2d26.732426999999994!3d-29.265984600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e8e43137dcf4c51%3A0xedc7ae61c84878f7!2sMangaung%20Digital%20Art%20Print!5e0!3m2!1sen!2sza!4v1786109290839!5m2!1sen!2sza" width="500" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-            </div>
-
-            <div class="contact-form">
-                <h2>Get In Touch</h2>
-                <form>
-                    <input type="text" id="full Name" name="full Name" placeholder="Full Name" required>
-
-                    <input type="tel" id="contact Number" name="contact Number" placeholder="Contact Number"required>
-
-                    <input type="email" id="email" name="email" placeholder=" email" required>
-
-                    <select id="interest" name="interest" required>
-                        <option value=""disabled selected>Location</option>
-                        <option value="botshabelo">Botshabelo</option>
-                        <option value="mangaung">Mangaung (Other)</option> 
-                    </select>
-
-                    <select id="Location" name="Location" required>
-                        <option value="" disable selected>Please select type of Enquiry </option>
-                        <option value="botshabelo">Botshabelo</option>
-                        <option value="mangaung">Mangaung (Other)</option>
-                    </select>
-
-                    <select id="enquiryType" name="enquiryType" required>
-                        <option value="" disabled selected>Please select type of enquiry</option>
-                        <option value="enrollment">Program Enrollent</option>
-                        <option value="general">General Question</option>
-                    </select>
-                    
-                    <textarea id="comments" name="comments" rows="4" placeholder=" Comment" required></textarea>
-
-                    <button type="submit">Submit Enquiry</button>
-                </form>
-            </div>
-        
+      <!-- Two Side-by-Side Cards -->
+      <div class="contact-cards-row">
+        <div class="contact-box">
+          <h4>Postal Address</h4>
+          <p class="address-text">97 St Andrews Street, Bloemfontein</p>
+          <h4>Accounts</h4>
+          <p class="phone-link">
+            <a href="tel:0871091828">
+              <svg class="phone-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/>
+              </svg>
+              087 109 1828
+            </a>
+          </p>
         </div>
-    </section>
+
+        <div class="contact-box">
+          <h4>Opening Hours</h4>
+          <div class="hours-list">
+            <div class="hours-row">
+              <span class="day">Weekdays:</span>
+              <span class="time">8am to 5pm</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Saturday:</span>
+              <span class="time">8am to 1pm</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Sunday:</span>
+              <span class="time">Closed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Physical Address & Map -->
+      <div class="physical-address-section">
+        <h3>Physical Address</h3>
+        <p class="physical-text">97 St Andrews Street, Bloemfontein</p>
+        <div class="map-wrapper">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3480.5565360849646!2d26.732426999999994!3d-29.265984600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e8e43137dcf4c51%3A0xedc7ae61c84878f7!2sMangaung%20Digital%20Art%20Print!5e0!3m2!1sen!2sza!4v1786109290839!5m2!1sen!2sza" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="strict-origin-when-cross-origin">
+          </iframe>
+        </div>
+        <a href="#" class="directions-btn">Download Directions</a>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN: Form Card -->
+    <div class="contact-form-col">
+      <div class="contact-form-card">
+        <h2>Get In Touch</h2>
+        <form>
+          <input type="text" id="fullName" name="fullName" placeholder="Full name" required>
+          <input type="tel" id="contactNumber" name="contactNumber" placeholder="Contact Number" required>
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <input type="text" id="studyInterest" name="studyInterest" placeholder="I am looking to study">
+
+          <select id="location" name="location" required>
+            <option value="" disabled selected>Location</option>
+            <option value="botshabelo">Botshabelo</option>
+            <option value="mangaung">Mangaung (Other)</option> 
+          </select>
+
+          <select id="enquiryType" name="enquiryType" required>
+            <option value="" disabled selected>Please select type of enquiry</option>
+            <option value="enrollment">Program Enrollment</option>
+            <option value="general">General Question</option>
+          </select>
+
+          <textarea id="comments" name="comments" rows="3" placeholder="Comment" required></textarea>
+
+          <button type="submit" class="submit-pill-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
     </main>
 
    <footer class="site-footer">
