@@ -66,5 +66,22 @@ This project is a 5-page static website developed for an academic web developmen
 * *Footer:* Comprehensive 4-column layout containing brand logo, quick links, service routing, and external social media links.
 * *Responsiveness:* All pages collapse gracefully into single-column layouts for mobile devices (max-width: 600px) and adapt for tablet viewing (max-width: 900px).
 
+## Recent Updates & Enhancements (Part 3)
+
+### Contact Page Architecture
+* **Structured Information Cards:** Refactored the contact details section into a two-card layout dividing physical/postal address details and structured operational hours.
+* **Tabular Schedule Rows:** Replaced unstyled bullet lists with key-value flex rows, subtle divider lines, and clear typography for daily opening and closing times.
+* **Actionable Direct Links:** Wired telephone and email entries to native dialer (`tel:`) and mail client (`mailto:`) protocols for frictionless mobile user experience.
+* **Integrated Location & Action:** Positioned the verified Botshabelo Google Maps embed directly beneath the physical address alongside a dedicated directions button.
+* **Card Form Refactor:** Restyled the inquiry form inside an elevated card featuring rounded input controls and a gold accent pill button.
+
+### Footer Alignment & Usability
+* **4-Column CSS Grid:** Fixed footer alignment across wide displays using a centralized container constraint (`width: min(90%, 1200px)`) and balanced column spacing.
+* **Direct Navigation & External Linking:** Added functional external social links (`Facebook`, `Instagram`, `X`, `YouTube`) configured with `target="_blank"` and `rel="noopener noreferrer"` for secure browsing.
+* **CSS Engine Cleanup:** Resolved duplicate property rules, normalized vendor styling bugs, and ensured consistent color contrast ratios across dark and light themes.
+* **Responsive Breakpoints:** Configured cascading rules for desktop (4-column), tablet (2-column at $\le$ 900px), and mobile (single-column stack at $\le$ 600px).
+
+
+
 **GitHub Link** [https://github.com/Damian-21-student/DAMIAN-FORBES-WED5020-ASSIGNMENT-1-PART1](https://github.com/Damian-21-student/DAMIAN-FORBES-WED5020-ASSIGNMENT-1-PART1)
 **Netilfy Link**[https://app.netlify.com/projects/elaborate-stardust-447a92/deploys/6a7c9ce9978a1a7b65ee6862](https://app.netlify.com/projects/elaborate-stardust-447a92/deploys/6a7c9ce9978a1a7b65ee6862)
